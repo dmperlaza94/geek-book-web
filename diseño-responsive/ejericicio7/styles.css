@@ -1,0 +1,32 @@
+/*Si el tamaño de la ventana es menor de 480px que tenga el fondo rojo
+Si el tamaño de la ventana está entre 480px y 768px que tenga el fondo amarillo
+Si el tamaño de la ventana es mayor de 768px que tenga el fondo verde*/
+body{
+    margin: 50px;
+    font-size: 18px;
+}
+.title{
+    color: crimson;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p{
+    color: darkblue;
+    text-align: justify;
+}
+@media all and (max-width:480px) {
+    body{
+background-color: red;
+    }
+}
+@media all and (min-width:480px) and (max-width:768px){
+    body{
+background-color: yellow;
+    }
+}
+@media all and (min-width:768px){
+    body{
+background-color: green;
+    }
+}

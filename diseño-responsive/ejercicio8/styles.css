@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(212, 204, 204);
+    margin: 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo{
+    font-size: 45px;
+
+}
+nav a{
+    display: block;
+    background-color: greenyellow;
+    line-height: 30px;
+    padding:25px;
+}
+.cuerpo{
+    background-color: yellow;
+    padding: 25px;
+}
+footer{
+    background-color: slategrey;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+@media all and (min-width:480px) and ( max-width:1000px){
+   .nav{
+       position: absolute;
+       left: 0px;
+      right: 50px;
+      width: 150px;
+
+
+   }
+    .cuerpo{ margin: 50px 50px 0px 50px;
+        position: absolute;
+        left:120px;
+        display: flex;
+        max-height: 500px;
+        overflow: auto;
+    }
+    .parrafo{
+        width: 50%;
+    }
+    .caja{
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin: 50px 20px auto 20px ;
+    }
+    footer{
+position: absolute;
+bottom: 0;
+left: 170px;
+right: 50px;
+        
+
+
+    }
+}
+@media all and ( min-width:1000px){
+    .nav{
+        position: absolute;
+        top: 250px;
+        left: 0px;
+       right: 50px;
+       width: 20%;
+ 
+ 
+    }
+     .cuerpo{ margin: 50px 50px 0px 50px;
+         position: absolute;
+         left:300px;
+         display: flex;
+         max-height: 500px;
+         overflow: auto;
+         width: 55%;
+     }
+     .parrafo{
+         width: 60%;
+     }
+     .caja{
+         background-color: black;
+         width: 300px;
+         height: 300px;
+         margin: 100px 0 100px 0;
+     }
+     footer{
+ position: absolute;
+ top: 250px ;
+ right: 0px;
+ width: 20%;
+         
+ 
+ 
+     }
+ }

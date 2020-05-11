@@ -1,0 +1,52 @@
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    max-width: 960px;
+}
+.header, .article, .aside1, .aside2, .footer{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+header{
+    background-color: crimson;
+}
+.article{
+    background-color: blue;
+    flex: 2 0;
+    order: 2;
+}
+
+.aside1{
+    background-color: yellow;
+    flex: 1 1 auto;
+    order: 1;
+}
+.aside2{
+    background-color: palevioletred;
+    flex: 1 1 auto;
+    order: 3;
+}
+.footer{
+    background: green;
+    order: 4;
+}
+@media all and ( max-width: 700px){
+
+    .aside1 {
+        width: 100%;
+        flex: 1 1 auto;
+        order: 1;}
+    .aside2{
+            width: 100%;
+            flex: 1 1 auto;
+            order:3 ;}
+  .article{
+        flex: 2 0;
+    order: 2;}
+    .footer{
+        order:4;
+    }
+}

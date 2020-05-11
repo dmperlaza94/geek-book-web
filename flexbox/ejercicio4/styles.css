@@ -1,0 +1,16 @@
+.principal{
+    display: flex;
+    flex-direction:row;
+    border: 5px solid black;
+    flex-wrap: wrap;
+}
+.hijo1, .hijo2,.hijo3, .hijo4, .hijo5{ padding: 50px;
+    width: 44%;
+  border: 2px solid black;
+}
+.imagenes{
+    width: 450px;
+}
+.hijo5{ width: 100%;
+    order: -1; 
+}

@@ -1,0 +1,2 @@
+3) Abramos ahora las herramientas de desarrollo de Chrome y lancemos el simulador de dispositivos móviles. Probemos varios dispositivos o resoluciones. ¿Qué pasa? ¿Cuándo se vuelve azul? ¿Cuándo se vuelve rojo?
+En el momento que inspecciono con los dispositivos no se cambia a rojo pero cuando utilizo el mouse para estrechar la pantalla si se pone en rojo cuando llego a 550px

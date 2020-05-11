@@ -1,0 +1,42 @@
+.principal{
+    width: 100%;
+    height: 200px;
+    max-width: 840px;
+    background: green;
+    display: flex;
+}
+.imagen{
+    padding: 50px 10px 5px 5px;
+    width: 200px;
+    height: auto;
+}
+img{
+    width: 100%;
+}
+.contenido-central{
+    width: 300px;
+    padding: 0px 100px 10px 0px;
+
+}
+button{
+    padding: 15px;
+    border-radius: 5px;
+}
+.valoracion{
+    margin-right: 10px;
+}
+.estrellas{
+    padding: 20px 15px 30px 10px;
+    display: flex;
+}
+.puntuacion{
+    background: honeydew;
+    border-radius: 5px;
+    height: 50px;
+ 
+}
+.icono{
+    margin-top: 10px;
+    display: block;
+    font-size: 50px;
+}

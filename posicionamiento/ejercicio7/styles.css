@@ -1,0 +1,22 @@
+body{
+    justify-content: center;
+}
+.contenedor{
+    text-align: center;
+    font-size: 18px;
+    background: yellow;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    max-width: 600px;
+        
+    
+}
+.max-width{
+    width: 86%;
+    height: 800px;
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+}

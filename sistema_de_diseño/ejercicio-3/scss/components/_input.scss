@@ -1,0 +1,31 @@
+$color-primary: rgba(24, 166, 223, 0.801);
+$color-error: #ff0000;
+$color-succes: #00ff00;
+.input {
+    width: 300px;
+    padding: 5px 3px;
+
+    outline: none;
+    border: none;
+    border-bottom: 2px solid lightgray;
+
+    font-size: 1.1em;
+    // border-bottom: 2px solid rgba(24, 166, 223, 0.801);
+    caret-color: rgba(24, 166, 223, 0.801);
+}
+
+.input-press:active {
+    border-bottom: 2px solid $color-primary;
+}
+
+.input-focus:focus {
+    border-bottom: 2px solid $color-primary;
+}
+
+.input-error {
+    border-bottom: 2px solid $color-error;
+}
+
+.input-valid {
+    border-bottom: 2px solid $color-succes;
+}

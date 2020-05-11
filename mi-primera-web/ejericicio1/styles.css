@@ -1,0 +1,12 @@
+table, td{
+    border: 1px black solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+.tipo{
+    background: yellow;
+}
+.dia{
+    background: cornflowerblue;
+}

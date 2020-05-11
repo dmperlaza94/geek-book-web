@@ -1,0 +1,17 @@
+*{
+    width: 90%;
+    margin-left: 50px;
+    }
+body{ background: mediumpurple;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    font-size: 18px;
+    }
+h1{   
+   text-align: center;
+}
+
+#copyright{
+    text-align: center;
+      }

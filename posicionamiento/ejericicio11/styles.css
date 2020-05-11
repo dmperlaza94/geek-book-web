@@ -1,0 +1,41 @@
+body{
+    background: #e8eaf6;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imagen{
+    text-align: center;
+    padding: 50px;
+}
+.titulo{
+    text-align: center;
+}
+.contenido{
+    margin-bottom: 150px;
+    text-align: justify;
+}
+.principal{
+    margin: 100px;
+}
+.cookies{
+    background-color: rgb(136, 130, 130);
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    position: fixed;
+}
+.footer{
+    margin-top: 100px;
+    margin-bottom:0px;
+    text-align: center;
+}
+.empresa{
+
+    font-family: serif;
+}
+   
+ .social-bar{
+    border-radius: 50%;
+}
+

@@ -1,0 +1,112 @@
+body{
+    margin-left: 500px;
+}
+form{ width: 530px;
+    padding: 40px 20px 20px 40px;
+    height: 880px;
+    background-color: #D8DEE3;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 18px;
+    color: rgba( 32, 33, 36);
+    display: block;
+    background-attachment: scroll;
+    
+}
+section{
+    padding-top: 10px;
+}
+
+input{
+    height: 20px;
+    padding: 11px 11px;
+    font-size: 14px;
+    margin: 2px 2px 15px 2px;
+    text-align: left;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: text;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+select{
+    height: 35px;
+    padding: 7px 11px;
+    font-size: 14px;
+    margin: 2px 2px 0 2px;
+    text-align: left;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: text;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+
+}
+::-webkit-input-placeholder{
+    font-size: 18px;
+    }
+#Email::placeholder  {    
+  text-align: right;
+}
+#firstName, #lastName{
+    width: 223px;
+}
+#dia{
+    width: 80px;
+}
+#Año-nacimiento{
+    width: 100px;
+}
+#mes {
+    width: 260px;
+    background-color: #D8DEE3;
+}
+ #Email, #contraseña, #genero, #movíl, #correo_actual, #ubicacion{
+     width: 480px;
+ }
+ #genero{
+     width: 500px;
+    background-color: #D8DEE3;
+
+ }
+ .section-bandera{
+     width: 100%;
+     display: flex;
+     flex-direction: wrap;
+    
+
+ }
+ .bandera{
+     background-color: white;
+     width: 50px;
+     height: 25px;
+     border-radius: 4px;
+     padding: 10px 0px 8px 15px;
+    
+}
+ #movil{    width: 410px;
+ }
+#correo_actual{
+    margin-right: 50px;
+    width: 480px;
+}
+#ubicacion{
+    width: 500px;
+    background-color: #D8DEE3;
+
+}
+ 
+.siguiente {
+    float: right;
+    margin: 35px 25px 35px auto;
+    font-family: 'Google Sans',arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .25px;
+    background: #1a73e8;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 20px;
+    height: 45px;
+  }
+
+ 

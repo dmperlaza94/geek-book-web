@@ -1,0 +1,35 @@
+*{
+    width: 90%;
+    margin-left: 50px;
+    
+}
+body{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#757575 ;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #f3f4f5;
+    
+
+}
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#757575 ;
+}
+h2{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+strong{
+    color: black;
+
+}

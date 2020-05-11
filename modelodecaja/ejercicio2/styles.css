@@ -1,0 +1,26 @@
+
+.numero1{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+.numero2{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+.numero3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.numero4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: none;
+}

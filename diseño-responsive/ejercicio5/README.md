@@ -1,0 +1,2 @@
+¿Qué tal ahora? ¿Si nos vamos a las herramientas de desarrollo, abrimos el simulador y probamos con diferentes dispositivos/anchos? ¿Cambia ahora de rojo a azul?
+En este caso al adicionar el name="viewport" si se reconoce.

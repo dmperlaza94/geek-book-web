@@ -1,0 +1,31 @@
+ body{
+     display: grid;
+     grid-template-columns: repeat(12,1fr);
+     grid-template-rows: 20vh 60vh 20vh;
+     text-align: center;
+     color: white;
+    
+     
+}
+.header{
+    background: #fec1cc;
+    grid-column: 1/13;
+    padding-top: 50px;
+}
+.menu{
+   background:  #4a0e80;
+   grid-column: 1/4 ;
+   padding-top: 200px;
+
+}
+.cuerpo{
+     background: #cb5c5e;
+     grid-column:  span 9;
+     padding-top: 200px;
+
+}
+.footer{
+    background:#aed8e5;
+    grid-column: span 12;
+    padding: 50px;
+}

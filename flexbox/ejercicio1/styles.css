@@ -1,0 +1,31 @@
+.contenedor_padre1{
+    width: 500px;
+    height: 500px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+    ;
+}
+
+.hijos{
+    border: 1px solid #CD238D ;
+    width: 20px;
+    background-color: #DAA8E9;
+}
+.contenedor_padre2{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    ;
+
+}
+.hijos2{
+    border: 1px solid #CD238D ;
+    width: 100%;
+    background-color: #DAA8E9;
+
+}
+

@@ -1,0 +1,96 @@
+$span-doble: span 2;
+$sombreado-logo:  -1px -1px 0 #615655;
+$h-w:100%;
+$font-body:'Raleway', sans-serif;
+$color-link: #ff9900;
+$mg-btn: 1em;
+$m-query: 600px;
+$font-logo: "Raleway", sans-serif;
+
+@media (min-width: $m-query) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+  
+    .info1 {
+       grid-column: $span-doble;
+       grid-row: $span-doble;
+    }
+    
+    .info2 {
+      grid-column:$span-doble;
+    }
+    
+    .figure1 {
+      grid-column: span 3;
+      grid-row: $span-doble;
+    }
+    .figure6 {
+      grid-column:$span-doble;
+    }
+    .figure7 {
+      grid-column: span 3;
+    }
+      }
+      .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  /* generic styles ----------------------------------- */
+  body {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: $font-body;
+  }
+  
+  header {
+   padding: 10px;
+  }
+  
+  .logo-img {
+    margin-right: 10px;
+    height: 60px;
+    transform: scaleX(-1);
+  }
+  
+  .logo-text {
+    font-family: 'Lobster', cursive;
+    font-size: 2.6em;
+    color: #c3bab9;
+    text-shadow:
+    $sombreado-logo,
+    $sombreado-logo,
+    $sombreado-logo,
+    $sombreado-logo;
+  }
+  
+  .figure-img {
+    display: block;
+    width: $h-w;
+    height: $h-w;
+    object-fit: cover;
+  }
+  
+  .info1, .info2 {
+    padding: 40px;
+    background-color: #333;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: $mg-btn;
+  }
+  
+  p {
+    margin-bottom: $mg-btn;
+  }
+  
+  .info-link {
+    text-decoration: none;
+    color: $color-link ;
+  }
+  

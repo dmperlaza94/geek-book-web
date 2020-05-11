@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+    <form  class="form" action="/signup" method="post">
+        <section class="Datos_personales"> 
+        <label for=""><b>Nombre</b></label>
+        <br>
+       <input placeholder="Nombre" id="firstName" type="text" name="firstName" required>
+     <input placeholder="Apellido" id="lastName" type="text" name="lastName" required>
+    </section>
+    <section class="Nombre-usuario">
+        <label for=""><b>Nombre de usuario </b></label>
+        <br>
+            <input placeholder="@gmail" id="Email" type="text" name="Email" required>
+        </section>
+           <section class="Contraseña">
+        <label for="contraseña"><b> Contraseña</b></label>
+        <br>
+        <input  id="contraseña" type="password" name="contraseña"required>
+        <div> <label for="contraseña"><b>  Confirmar Contraseña</b></label>
+        <br><input  id="contraseña" type="password" name="contraseña" required></div>
+        <section class="fecha">
+            <label for="Fecha-nacimiento"><b> Fecha de nacimiento</b></label>
+           <br> <input placeholder="Dia" id="dia" type="number" name="dia"required> 
+           <select id="mes" name="mes" required>
+            <option>Mes</option>
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiempre</option>
+            <option >Octubre</option>
+            <option> Noviembre</option>
+            <option>Diciembre</option>
+           </select>   
+           <input placeholder="Año" id="Año-nacimiento" type="number" 
+           name="Año-nacimiento"required>
+        </section>
+            <section class="sexo">
+    <label for=""><b>Sexo</b></label> <br>
+            <select id="genero" name="genero">
+            <option>Selecciona tu género</option>
+            <option>Masculino</option>
+            <option>Femenino</option>
+            </select>
+        </section>
+        <section>            
+            <label for="telefono"> <b>Teléfono móvil</b></label><br>
+            <div class="section-bandera">
+            <div class="bandera">
+                <img src="../ejericicio5/imagen/bandera.png" width="20px" height="20px" alt=""> &#x23f7; </div>
+        <div class="movil"> 
+             <input  type="text" id="movil" name="Teléfono"  value=" +34"required> </div>
+        </div>  </section>
+
+    <section class="correo-actual">
+        <label for="correo-actual"> <b> dirección de correo electrónico actual </b></label><br>
+        <input  id="correo_actual" type="text" name="Teléfono" value="" required> 
+        
+    </section>
+   <section class="ubicacion"> <label for="correo-actual"> <b> Ubicacion</b> </label> <br>
+     <select id="ubicacion" name="ubicacion" required>
+    <option> España</option>
+    <option>Estados Unidos</option>
+    <option>Estonia</option>
+    <option>Filipinas</option>
+    <option>Francia</option>
+    <option>Gambia</option>
+    <option>Georgia</option>
+    <option>Grecia</option>
+    <option>Guatemala</option>
+    <option>Colombia</option>
+   </select>   
+
+   
+</section>
+        <input class="siguiente"type="submit" value=" Siguiente paso">   
+
+                
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+}
+.fija{
+    background: blueviolet;
+    position: fixed;
+    width: 100%;
+
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    display: inline-block;
+    margin:12px;
+}
+.principal{
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+    
+
+}
+p{
+    text-align: justify;
+}

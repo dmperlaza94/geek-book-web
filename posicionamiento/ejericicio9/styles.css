@@ -1,0 +1,33 @@
+body{
+    border: 8px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.primer_texto{
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+.titular{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.contenedor1{ 
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 900px;
+    
+}
+.parrafos{
+     width: 45%;
+    text-align: justify;
+    line-height: 32px;
+}
+
+.paragraf{
+    margin-bottom: 27px;
+}

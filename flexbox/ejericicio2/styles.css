@@ -1,0 +1,12 @@
+.bloque-img{
+    width: 850px;
+    height: 425px;
+    border: 5px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen{ padding: 0px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
